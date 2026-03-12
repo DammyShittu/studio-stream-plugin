@@ -1,0 +1,28 @@
+{
+  "name": "bbb-livestream-plugin",
+  "version": "1.0.0",
+  "description": "BigBlueButton v3 Livestream Plugin — RTMP/HLS streaming for moderators",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "build-bundle": "webpack --config webpack.config.js --mode production",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "bigbluebutton-html-plugin-sdk": "^0.0.39",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
