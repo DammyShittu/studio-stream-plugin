@@ -1,0 +1,16 @@
+{
+  "livestream.title": "Livestream",
+  "livestream.goLive": "Go Live",
+  "livestream.stop": "Stop Stream",
+  "livestream.platform": "Platform",
+  "livestream.streamKey": "Stream Key",
+  "livestream.quality": "Quality",
+  "livestream.duration": "Duration",
+  "livestream.bitrate": "Bitrate",
+  "livestream.viewerUrl": "Viewer URL",
+  "livestream.starting": "Starting stream… this takes ~10 seconds",
+  "livestream.stopping": "Stopping stream…",
+  "livestream.error.noWorkers": "No capture workers available. All instances are busy.",
+  "livestream.dropdown.start": "🔴 Start Livestream",
+  "livestream.dropdown.stop": "⏹ Stop Livestream"
+}
